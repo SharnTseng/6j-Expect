@@ -37,6 +37,7 @@ int main() {
 	tt+=t;
     }
 	printf("共嘗試融煉了: %d 次\n",tt);
+	printf("平均要熔煉: %d 次\n",float(tt)/a)
 	printf("總消耗5階量: %d 顆   總消耗卷: %d 張\n",tg,td);
 	printf("平均消耗5階量: %.2f 顆  平均消耗卷量: %.2f 張\n",float(tg)/a,float(td)/a);
 	printf("平均熔煉一顆要消耗 %.2f 萬\n",(float(tg)/a+float(td)/a)*100 );
