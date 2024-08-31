@@ -1,6 +1,7 @@
 #include <time.h>
 #include <stdio.h>
 #include <stdlib.h>
+// 在這網站把整段代碼貼上去按run: https://www.onlinegdb.com/online_c++_compiler
 int main() {
 	srand(time(NULL));
 	int a,g,d,tg,td,r=0,t,tt;
